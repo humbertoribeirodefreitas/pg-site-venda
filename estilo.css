@@ -1,0 +1,45 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+}
+.carousel-item {
+    height: 500px;
+}
+.product-card {
+    transition: transform 0.3s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.cart-item {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.footer-icons a {
+    color: #fff;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.card-body > h5, p{
+    color:#fff;
+}
+.carousel-caption{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.carousel-caption > div {
+    background: #000000c6;
+    backdrop-filter: blur(2px);
+    padding: 8px calc(8px*2);
+    border-radius: 20%;
+    width: calc(5%*6.5);
+}
